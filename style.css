@@ -13,4 +13,33 @@ body {
 
 header {
 	text-align: center;
+	border: ridge 6px #7D5ED1;
+	position: fixed;
+	width: 100%;
+	display: block;
+	top: 0px;
+	bottom: auto;
+}
+
+header h1 {
+	margin: 0px 0px -10px;
+}
+
+header nav a {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+main {
+	position: relative;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+footer {
+	text-align: center;
+	border: ridge 6px #7D5ED1;
+	padding: 5px;
+	margin-top: 5px;
+
 }
