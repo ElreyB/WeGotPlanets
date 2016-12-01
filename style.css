@@ -10,3 +10,7 @@ body {
   color: #7D5ED1;
   font-family: "Papyrus", serif, sans-serif; 
 }
+
+header {
+	text-align: center;
+}
