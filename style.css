@@ -19,6 +19,9 @@ header {
 	display: block;
 	top: 0px;
 	bottom: auto;
+	background-color: black;
+	max-width: 960px;
+	z-index: 1000;
 }
 
 header h1 {
@@ -43,10 +46,18 @@ main {
 	padding: 15px;
 }
 
+.thanks_background {
+	background-image: url(images/thank_planet.jpg);
+	background-size: auto; 
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
 footer {
 	text-align: center;
 	border: ridge 6px #7D5ED1;
 	padding: 5px;
 	margin-top: 5px;
+	max-width: 960px;
 
 }
