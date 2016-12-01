@@ -36,6 +36,13 @@ main {
 	margin-top: 30px;
 }
 
+#main-content{
+	position: relative;
+	display: inline-block;
+	margin-top: 50px;
+	padding: 15px;
+}
+
 footer {
 	text-align: center;
 	border: ridge 6px #7D5ED1;
