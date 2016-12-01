@@ -35,7 +35,6 @@ header nav a {
 #index{
 	position: relative;
 	display: block;
-	margin: center;
 	margin-top: 50px;
 	text-align: center;
 }
@@ -61,8 +60,13 @@ main ul li {
 	background-image: url(images/thank_planet.jpg);
 	background-size: cover; 
   	background-repeat: no-repeat;
-  	background-position: cover;
   	margin-top: 50px;
+}
+
+.warning {
+	color: red;
+	font-family: "Arial Black", serif, sans-serif; 
+	text-align: center;
 }
 
 footer {
