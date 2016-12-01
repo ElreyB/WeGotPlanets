@@ -1,0 +1,102 @@
+body {
+  background-color:black;
+  background-image:
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  color: #7D5ED1;
+  font-family: "Papyrus", serif, sans-serif; 
+  max-width: 960px;
+}
+
+header {
+	text-align: center;
+	border: ridge 6px #7D5ED1;
+	position: fixed;
+	top: 0px;
+	bottom: auto;
+	background-color: black;
+	width: 960px;
+	z-index: 1000;
+}
+
+header h1 {
+	margin: 0px 0px -10px;
+}
+
+header nav a {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#index{
+	position: relative;
+	display: block;
+	margin-top: 50px;
+	text-align: center;
+}
+
+main ul li {
+	list-style: none;
+}
+
+#content{
+	position: relative;
+	display: inline-block;
+	margin-top: 50px;
+	padding: 15px;
+}
+
+.welcome {
+	text-align: center;
+	color: #4CC7C5;
+	font-size: 50px;
+}
+
+.thanks_background {
+	background-image: url(images/thank_planet.jpg);
+	background-size: cover; 
+  	background-repeat: no-repeat;
+  	margin-top: 50px;
+}
+
+.warning {
+	color: red;
+	font-family: "Arial Black", serif, sans-serif; 
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	border: ridge 6px #7D5ED1;
+	padding: 5px;
+ 	margin-top: 50px;
+	width: auto;
+	position: relative;
+	background-color: black;
+}
+
+a {
+	color: #7D5ED1;
+}
+
+a:visited {
+	color: #A33C67;
+}
+
+@media screen and (max-width: 668px) { 
+     header {
+	   	text-align: center;
+		border: ridge 6px #7D5ED1;
+		padding: 5px;
+	 	margin-top: 50px;
+		width: auto;
+		position: relative;
+		background-color: black;
+   }
+}
+
+
