@@ -9,6 +9,7 @@ body {
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   color: #7D5ED1;
   font-family: "Papyrus", serif, sans-serif; 
+  max-width: 960px;
 }
 
 header {
@@ -48,9 +49,10 @@ main {
 
 .thanks_background {
 	background-image: url(images/thank_planet.jpg);
-	background-size: auto; 
+	background-size: cover; 
   	background-repeat: no-repeat;
   	background-position: center;
+  	margin-top: 50px;
 }
 
 footer {
@@ -58,6 +60,7 @@ footer {
 	border: ridge 6px #7D5ED1;
 	padding: 5px;
 	margin-top: 5px;
-	max-width: 960px;
+	width: 100%;
+	position: absolute;
 
 }
