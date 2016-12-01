@@ -21,7 +21,7 @@ header {
 	top: 0px;
 	bottom: auto;
 	background-color: black;
-	max-width: 960px;
+	width: 960px;
 	z-index: 1000;
 }
 
@@ -34,24 +34,36 @@ header nav a {
 	margin-right: 10px;
 }
 
-main {
+#index{
 	position: relative;
-	display: inline-block;
-	margin-top: 30px;
+	display: block;
+	margin: center;
+	margin-top: 50px;
+	text-align: center;
 }
 
-#main-content{
+main ul li {
+	list-style: none;
+}
+
+#content{
 	position: relative;
 	display: inline-block;
 	margin-top: 50px;
 	padding: 15px;
 }
 
+.welcome {
+	text-align: center;
+	color: #4CC7C5;
+	font-size: 50px;
+}
+
 .thanks_background {
 	background-image: url(images/thank_planet.jpg);
 	background-size: cover; 
   	background-repeat: no-repeat;
-  	background-position: center;
+  	background-position: cover;
   	margin-top: 50px;
 }
 
@@ -59,8 +71,16 @@ footer {
 	text-align: center;
 	border: ridge 6px #7D5ED1;
 	padding: 5px;
-	margin-top: 5px;
-	width: 100%;
-	position: absolute;
+ 	margin-top: 50px;
+	width: 960px;
+	position: relative;
+	background-color: black;
+}
 
+a {
+	color: #7D5ED1;
+}
+
+a:visited {
+	color: #A33C67;
 }
