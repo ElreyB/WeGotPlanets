@@ -72,16 +72,10 @@ main ul li {
 #cycler img{
 	position:absolute;
 	z-index:1;
-	background-size: cover; 
-  background-repeat: no-repeat;
- 	margin-top: 50px;
 }
 
 #cycler img.active{
 	z-index:3;
-	background-size: cover; 
-  background-repeat: no-repeat;
- 	margin-top: 50px;
 }
 
 .warning {
