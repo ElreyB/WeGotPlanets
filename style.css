@@ -56,11 +56,23 @@ main ul li {
 	font-size: 50px;
 }
 
-.thanks_background {
-	background-image: url(images/thank_planet.jpg);
+/*#cycler {
+	background-image: url(images);
 	background-size: cover; 
   	background-repeat: no-repeat;
   	margin-top: 50px;
+}
+*/#cycler{
+	position:relative;
+}
+
+#cycler img{
+	position:absolute;
+	z-index:1;
+}
+
+#cycler img.active{
+	z-index:3;
 }
 
 .warning {
